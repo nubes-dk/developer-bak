@@ -1,7 +1,6 @@
 # nubibus
 
 # customer
-![Class Diagram]()
+![Class Diagram](https://raw.githubusercontent.com/nubes-dk/nubibus/main/customer.puml?token=ACF5TLVDHZPUASR7BLQFPQLBSEXUO)
 # sales
 
-http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/Zingam/Markdown-Document-UML-Use-Test/master/UML/Instance.puml
