@@ -1,29 +1,7 @@
 # nubibus
 
-@startuml
-User  --> Customer
-Customer --> Agreement
-Customer  --> Document
-Customer  --> Communication
-Customer  --> Transaction
+# customer
 
-(User,Customer).. Role
+# sales
 
-User  --> Account
-Account --> Agreement
-Account  --> Document
-Account  --> Communication
-Account  --> Transaction
-
-Customer -> Account
-
-
-Agreement --> Policy
-Policy --> Coverage
-Policy --> Party
-Policy --> InsurableObject
-
-(Policy,Party) .. PolicyRole
-
-Role .. (User,Account)
-@enduml
+http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/Zingam/Markdown-Document-UML-Use-Test/master/UML/Instance.puml
