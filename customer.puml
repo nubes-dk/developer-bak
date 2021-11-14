@@ -3,13 +3,13 @@ User  --> Customer
 Customer --> Agreement
 Customer  --> Document
 Customer  --> Case
-Customer  --> Transaction
+Customer  --> Payment
 
 
 User  --> Account
 Account  --> Document
 Account  --> Case
-Account  --> Transaction
+Account  --> Payment
 Account --> Agreement
 
 Customer -> Account
@@ -18,6 +18,8 @@ Customer -> Account
 UserRole .. (User,Account)
 UserRole .. (Customer,Account)
 
+Payment --> Collection
+Payment --> Transaction
 
 Agreement --> Policy
 Policy -> Party
